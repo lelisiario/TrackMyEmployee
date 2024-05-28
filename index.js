@@ -1,7 +1,15 @@
 // Import required modules
 const inquirer = require('inquirer');
-const { viewAllDepartments, viewAllRoles, viewAllEmployees, addNewDepartment, addNewRole, addNewEmployee, updateEmployeeRole } = require('./lib/utils');
-const { viewAllDepartments, viewAllRoles, viewAllEmployees, addNewDepartment, addNewRole, addNewEmployee, updateEmployeeRole } = require('./lib/utils');
+//const { viewAllDepartments, viewAllRoles, viewAllEmployees, addNewDepartment, addNewRole, addNewEmployee, updateEmployeeRole } = require('./lib/utils');
+const {
+viewAllDepartments,
+addNewDepartment,
+viewAllRoles,
+addNewRole,
+viewAllEmployees,
+addNewEmployee,
+// updateEmployeeRole,
+} = require("./models/index")
 
 // Function to display main menu options
 async function mainMenu() {
